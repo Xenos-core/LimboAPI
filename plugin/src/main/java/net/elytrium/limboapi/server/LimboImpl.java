@@ -159,7 +159,7 @@ public class LimboImpl implements Limbo {
   private String limboName;
   private Integer readTimeout;
   private Long worldTicks;
-  private short gameMode = GameMode.ADVENTURE.getID();
+  private int gameMode = GameMode.ADVENTURE.getID();
   private Integer maxSuppressPacketLength;
 
   private PreparedPacket joinPackets;
